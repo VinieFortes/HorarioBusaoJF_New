@@ -1,11 +1,8 @@
 package com.vinieFortes.horariobusaojf
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ListView
 import android.widget.TextView
-import androidx.cardview.widget.CardView
 import org.json.JSONObject
 import java.io.IOException
 import java.io.InputStream
@@ -23,7 +20,7 @@ class Teste : AppCompatActivity() {
         var json : String? = null
 
         try {
-            val inputStream: InputStream = assets.open("BusaoJfBd.json")
+            val inputStream: InputStream = assets.open("BusaoJfBdAzul.json")
             json = inputStream.bufferedReader().use { it.readText() }
 
             val jsonObject = JSONObject(json)

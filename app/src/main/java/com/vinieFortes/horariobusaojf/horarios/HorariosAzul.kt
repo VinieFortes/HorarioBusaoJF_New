@@ -4,7 +4,6 @@ package com.vinieFortes.horariobusaojf.horarios
 import android.content.res.ColorStateList
 import android.os.Build
 import android.os.Bundle
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
@@ -28,6 +27,14 @@ class HorariosAzul : AppCompatActivity() {
     private lateinit var linha: String
     private lateinit var json : String
 
+    private lateinit var sbairroSemana: String
+    private lateinit var sbairroSabado: String
+    private lateinit var sbairroDomingo: String
+
+    private lateinit var scentroSemana: String
+    private lateinit var scentroSabado: String
+    private lateinit var scentroDomingo: String
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,22 +46,24 @@ class HorariosAzul : AppCompatActivity() {
         }
 
         try {
-            val inputStream: InputStream = assets.open("BusaoJfBd.json")
+            val inputStream: InputStream = assets.open("BusaoJfBdAzul.json")
             json = inputStream.bufferedReader().use { it.readText() }
 
             val jsonObject = JSONObject(json)
 
             val jsonobj = jsonObject.getJSONObject("Linhas")
                 .getJSONObject(linha)
-                .getJSONObject("SCentro")
 
-            val textView: TextView? = null
-            textView?.text = jsonobj.getString("semana")
+            sbairroSemana = jsonobj.getJSONObject("SBairro").getString("semana")
+            sbairroSabado = jsonobj.getJSONObject("SBairro").getString("sabado")
+            sbairroDomingo = jsonobj.getJSONObject("SBairro").getString("domingo")
+            scentroSemana = jsonobj.getJSONObject("SCentro").getString("semana")
+            scentroSabado = jsonobj.getJSONObject("SCentro").getString("sabado")
+            scentroDomingo = jsonobj.getJSONObject("SCentro").getString("domingo")
         }
         catch (e : IOException){
 
         }
-
 
         toolbar = findViewById(R.id.toolbarHorarios)
         val tabs = findViewById<TabLayout>(R.id.tabs)
@@ -80,9 +89,9 @@ class HorariosAzul : AppCompatActivity() {
 
 
         models = ArrayList()
-        models.add(HorariosModel("bola", "bola" , "teste 1", "teste 1"))
-        models.add(HorariosModel("bola", "bola", "teste 2", "teste 2"))
-        models.add(HorariosModel("bola", "bola", "teste 3", "teste 3"))
+        models.add(HorariosModel("Saída Bairro", "Saída Centro" , sbairroSemana, scentroSemana))
+        models.add(HorariosModel("Saída Bairro", "Saída Centro", sbairroSabado, scentroSabado))
+        models.add(HorariosModel("Saída Bairro", "Saída Centro", sbairroDomingo, scentroDomingo))
 
         adapter = HorariosAdapterAzul(models, this@HorariosAzul)
 

@@ -18,7 +18,7 @@ private lateinit var icon: IntArray
 private lateinit var lv: ListView
 @SuppressLint("StaticFieldLeak")
 private lateinit var adapter: ListViewAdapter
-var arrayList: ArrayList<Model> = ArrayList<Model>()
+private  var arrayList: ArrayList<Model> = ArrayList<Model>()
 
 
 class MainActivity : AppCompatActivity() {
@@ -340,8 +340,7 @@ class MainActivity : AppCompatActivity() {
         searchView.setOnQueryTextListener(object :  SearchView.OnQueryTextListener {
 
             override fun onQueryTextChange(newText: String): Boolean {
-                val text = newText
-                adapter.filter(text)
+                adapter.filter(newText)
                 return false
             }
 

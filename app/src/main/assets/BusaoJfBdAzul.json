@@ -1,0 +1,81 @@
+{
+    "Linhas": {
+      "100 - Filgueiras" :{
+        "SBairro": {
+          "semana" : "05:45   10:15   14:45   19:15   \n08:00   12:30   17:00   21:35 ",
+          "sabado" : "05:40   10:00   14:20   18:40   23:00   \n07:50   12:10   16:30   20:50 ",
+          "domingo": "05:40   10:00   14:20   18:40   \n07:50   12:10   16:30   20:50 "
+        },
+        "SCentro" : {
+          "semana" : "06:45   11:15   15:45   20:15   \n09:00   13:30   18:00   22:35 ",
+          "sabado" : "06:35   10:55   15:15   19:35   \n08:45   13:05   17:25   21:45 ",
+          "domingo": "06:35   10:55   15:15   19:35   \n08:45   13:05   17:25   21:45 "
+        }
+      },
+      "101 - Grama" : {
+        "SBairro": {
+          "semana" : "03:50   08:05   12:20   16:38   21:06   \n04:41   08:58   13:11   17:34   21:57   \n05:32   09:47   14:02   18:28   22:48   \n06:23   10:38   14:53   19:24   23:39   \n07:14   11:29   15:44   20:15   00:30 ",
+          "sabado" : "04:36   09:15   13:54   18:27   22:33   \n06:09   10:48   15:27   19:49   \n07:42   12:21   17:00   21:11   ",
+          "domingo": "05:40   10:00   14:20   18:40   \n07:50   12:10   16:30   20:50 "
+        },
+        "SCentro" : {
+          "semana" : "04:40   08:55   13:10   17:33   21:56   \n05:31   09:46   14:01   18:29   22:47   \n06:22   10:37   14:52   19:23   23:38   \n07:13   11:28   15:43   20:14   00:29   \n08:04   12:19   16:39   21:05   01:20 ",
+          "sabado" : "05:21   10:00   14:39   19:07   23:13   \n06:54   11:33   16:12   20:29   \n08:27   13:06   17:45   21:51 ",
+          "domingo": "06:45   11:03   15:21   19:25   23:01   \n08:11   12:29   16:47   20:37   \n09:37   13:55   18:13   21:49                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
+        }
+      },
+      "102 - Grama / Via Garganta do Dilermando": {
+        "SBairro": {
+          "semana" : "",
+          "sabado" : "",
+          "domingo": ""
+        },
+        "SCentro" : {
+          "semana" : "",
+          "sabado" : "",
+          "domingo": ""
+        }
+      },
+      "103 - Filgueiras": {},
+      "104 - Granjas Betânia / Santa Luzia": {},
+      "105 - Filgueiras": {},
+      "106 - Parque Independência / Jardim Gaúcho": {},
+      "107 - Vila Montanhesa": {},
+      "108 - Granjas Betânia / Santa Luzia": {},
+      "109 - Granjas Triunfo": {},
+      "110 - Recanto dos Lagos": {},
+      "111 - Mundo Novo / Santa Terezinha": {},
+      "112  - Mundo Novo / Santa Terezinha": {},
+      "113 - Vila Montanhesa / Jardim Gaúcho": {},
+      "114 - Sagrado Coração de Jesus / Granjas Betânia": {},
+      "115 - Mundo Novo / Quintas da Avenida": {},
+      "116 - Vivendas da Serra / Via Garganta do Dilermando": {},
+      "117 - Vivendas da Serra / Via Garganta do Dilermando": {},
+      "118 - Parque Independência / Cidade Nova / Vale Verde": {},
+      "119 - Nossa Senhora das Graças / Santa Luzia": {},
+      "120 - Vista Alegre / Santa Luzia": {},
+      "121 - Nossa Senhora das Graças / Santa Luzia": {},
+      "122 - Eldorado / Jardim de Alá": {},
+      "123 - Alto Eldorado / Santa Luzia": {},
+      "124 - Eldorado / Alto Jardim de Alá": {},
+      "125 - Eldorado / Jardim América": {},
+      "126 - Eldorado / Jardim América": {},
+      "129 - Previdenciários": {},
+      "130 - Bandeirantes / Via Garganta do Dilermando / Alto São Geraldo": {},
+      "131 - Bandeirantes / São Geraldo": {},
+      "132 - Bandeirantes / Ipiranga": {},
+      "133 - Bandeirantes / Ipiranga / Arco-irís": {},
+      "134 - Bandeirantes / Santa Efigênia": {},
+      "135 - Parque Guarani / Sagrado Coração de Jesus": {},
+      "136 - Bandeirantes / Via Garganta do Dilermando / Santa Efigênia": {},
+      "137 - Sagrado Coração de Jesus / Manoel Honório": {},
+      "140 - Santa Efigênia / Manoel Honório": {},
+      "141 - Bandeirantes / Bela Aurora": {},
+      "142 - Bandeirantes / Bela Aurora": {},
+      "143 - Bela Aurora / Centro": {},
+      "145  - Centenário / Santa Efigênia": {},
+      "150 - Grama": {},
+      "155 - Jardim Emaús": {},
+      "190 - Zona Sul / UFJF / CAS": {}
+    }
+}

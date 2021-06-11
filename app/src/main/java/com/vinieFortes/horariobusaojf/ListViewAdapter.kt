@@ -12,13 +12,16 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.vinieFortes.horariobusaojf.horarios.HorariosAzul
 import java.util.*
+import kotlin.collections.ArrayList
 
 
-class ListViewAdapter(private var activity: Activity, private var items: ArrayList<Model>) :
+
+class ListViewAdapter(
+    private var activity: Activity,
+    private var modellist: ArrayList<Model>) :
     BaseAdapter() {
 
-    private var modelist = java.util.ArrayList(items)
-
+    var arrayList = ArrayList(modellist)
 
     private class ViewHolder(row: View?) {
         var txtTitulo: TextView? = null
@@ -32,11 +35,11 @@ class ListViewAdapter(private var activity: Activity, private var items: ArrayLi
 
 
     override fun getCount(): Int {
-        return items.size
+        return modellist.size
     }
 
     override fun getItem(position: Int): Any {
-        return items[position]
+        return modellist[position]
     }
 
     override fun getItemId(position: Int): Long {
@@ -58,15 +61,21 @@ class ListViewAdapter(private var activity: Activity, private var items: ArrayLi
             view = convertView
             viewHolder = view.tag as ViewHolder
         }
-        val model = items[position]
+        val model = modellist[position]
         viewHolder.txtTitulo?.text = model.title
         viewHolder.imgIcon?.setImageResource(model.icon)
 
         view?.setOnClickListener {
 
-            if (modelist[position].title.equals("100 - Filgueiras")) {
+            if (modellist[position].title.equals("100 - Filgueiras")) {
                 val intent = Intent(activity, HorariosAzul::class.java)
                 val linha = "100 - Filgueiras"
+                intent.putExtra("linha", linha)
+                activity.startActivity(intent)
+            }
+            if (modellist[position].title.equals("101 - Grama")) {
+                val intent = Intent(activity, HorariosAzul::class.java)
+                val linha = "101 - Grama"
                 intent.putExtra("linha", linha)
                 activity.startActivity(intent)
             }
@@ -76,19 +85,23 @@ class ListViewAdapter(private var activity: Activity, private var items: ArrayLi
     }
 
 
-    fun filter(texto: String) {
-        val texto = texto.toLowerCase(Locale.getDefault())
-            items.clear()
+    //filtro
+    fun filter(text: String) {
 
-        if (texto.isEmpty()) {
-            items.addAll(modelist)
-            } else {
-                for (i in 0 until modelist.size) {
-                    if (modelist[i].title!!.toLowerCase(Locale.getDefault()).contains(texto)) {
-                        items.add(modelist[i])
-                    }
+        val text = text.toLowerCase(Locale.getDefault())
+        modellist.clear()
+
+        if (text.isEmpty()) {
+            modellist.addAll(arrayList)
+        } else {
+            for (i in 0 until arrayList.size) {
+                if (arrayList[i].title!!.toLowerCase(Locale.getDefault()).contains(text)) {
+                    modellist.add(arrayList[i])
                 }
             }
+        }
         notifyDataSetChanged()
     }
+
+
 }
