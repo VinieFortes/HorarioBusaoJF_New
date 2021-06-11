@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HorarioBusaoJF</string>
+    <string name="hintSearchMess">Pesquise sua linha aqui !</string>
+    <string name="tab_text_1">Semana</string>
+    <string name="tab_text_2">sábados</string>
+    <string name="tab_text_3">domingos e feriados</string>
+</resources>
