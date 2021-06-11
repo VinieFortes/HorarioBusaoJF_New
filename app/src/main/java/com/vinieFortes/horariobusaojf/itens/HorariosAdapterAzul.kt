@@ -1,4 +1,4 @@
-package com.vinieFortes.horariobusaojf.itens.azul
+package com.vinieFortes.horariobusaojf.itens
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,15 +7,15 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.annotation.StringRes
 import androidx.viewpager.widget.PagerAdapter
-import com.vinieFortes.horariobusaojf.Horarios
 import com.vinieFortes.horariobusaojf.R
 
-class HorariosAdapter(private var models: List<HorariosModel>, private var context: Context) : PagerAdapter() {
+class HorariosAdapterAzul(private var models: List<HorariosModel>, private var context: Context) : PagerAdapter() {
+
 
     private lateinit var layoutInflater: LayoutInflater
 
     @StringRes
-    private val TAB_TITLES =
+    private var TAB_TITLES =
         intArrayOf(R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_3)
 
     override fun getCount(): Int {
@@ -39,7 +39,7 @@ class HorariosAdapter(private var models: List<HorariosModel>, private var conte
         horariobairro.text = models[position].hbairro
         scentro.text = models[position].scentro
         horaiocentro.text = models[position].hcentro
-        view.setOnClickListener { }
+
         container.addView(view, 0)
         return view
     }
@@ -49,8 +49,6 @@ class HorariosAdapter(private var models: List<HorariosModel>, private var conte
     }
 
     override fun getPageTitle(position: Int): CharSequence {
-        return context.resources.getString(
-            TAB_TITLES[position]
-        )
+        return context.resources.getString(TAB_TITLES[position])
     }
 }

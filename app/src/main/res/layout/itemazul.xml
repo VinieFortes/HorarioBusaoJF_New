@@ -19,13 +19,16 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/card1">
+                android:id="@+id/card1"
+                app:cardBackgroundColor="@color/azul">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/sbairro"
                     android:gravity="center"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sf"
                     android:textStyle="bold"
                     android:textSize="20sp"/>
 
@@ -37,6 +40,7 @@
                 android:id="@+id/horariobairro"
                 android:textStyle="bold"
                 android:paddingStart="10dp"
+                android:fontFamily="@font/sf"
                 android:textSize="19sp"
                 android:lineSpacingExtra="2dp"
                 android:paddingLeft="10dp" />
@@ -58,12 +62,15 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/card2">
+                android:id="@+id/card2"
+                app:cardBackgroundColor="@color/azul">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/scentro"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sf"
                     android:textStyle="bold"
                     android:gravity="center"
                     android:textSize="20sp"/>
@@ -77,6 +84,7 @@
                 android:textStyle="bold"
                 android:lineSpacingExtra="2dp"
                 android:paddingStart="10dp"
+                android:fontFamily="@font/sf"
                 android:textSize="19sp"
                 android:paddingLeft="10dp" />
 

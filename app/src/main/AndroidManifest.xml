@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HorarioBusaoJF">
         <activity
-            android:name=".Horarios"
+            android:name=".horarios.HorariosAzul"
             android:exported="true" />
         <activity
             android:name=".Teste"

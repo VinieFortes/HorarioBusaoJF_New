@@ -3,14 +3,15 @@ package com.vinieFortes.horariobusaojf
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import com.vinieFortes.horariobusaojf.horarios.HorariosAzul
 import java.util.*
-import kotlin.collections.ArrayList
 
 
 class ListViewAdapter(private var activity: Activity, private var items: ArrayList<Model>) :
@@ -61,7 +62,15 @@ class ListViewAdapter(private var activity: Activity, private var items: ArrayLi
         viewHolder.txtTitulo?.text = model.title
         viewHolder.imgIcon?.setImageResource(model.icon)
 
+        view?.setOnClickListener {
 
+            if (modelist[position].title.equals("100 - Filgueiras")) {
+                val intent = Intent(activity, HorariosAzul::class.java)
+                val linha = "100 - Filgueiras"
+                intent.putExtra("linha", linha)
+                activity.startActivity(intent)
+            }
+        }
 
         return view as View
     }

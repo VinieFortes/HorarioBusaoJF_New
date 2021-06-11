@@ -3,18 +3,13 @@ package com.vinieFortes.horariobusaojf
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.text.Html
-import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.ListView
 import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import org.json.JSONObject
-import java.io.IOException
-import java.io.InputStream
+import com.vinieFortes.horariobusaojf.horarios.HorariosAzul
 import java.util.ArrayList
 
 private lateinit var linhas: Array<String>
@@ -363,7 +358,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
         if (id == R.id.fav) {
-            val intent = Intent(this, Horarios::class.java)
+            val intent = Intent(this, HorariosAzul::class.java)
             startActivity(intent)
             return true
         }
