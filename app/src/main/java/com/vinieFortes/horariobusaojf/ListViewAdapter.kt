@@ -67,25 +67,17 @@ class ListViewAdapter(
 
         view?.setOnClickListener {
 
-            if (modellist[position].title.equals("100 - Filgueiras")) {
-                val intent = Intent(activity, HorariosAzul::class.java)
-                val linha = "100 - Filgueiras"
-                intent.putExtra("linha", linha)
-                activity.startActivity(intent)
-            }
-            if (modellist[position].title.equals("101 - Grama")) {
-                val intent = Intent(activity, HorariosAzul::class.java)
-                val linha = "101 - Grama"
-                intent.putExtra("linha", linha)
-                activity.startActivity(intent)
-            }
+            val linha = modellist[position].title.toString()
+            val intent = Intent(activity, HorariosAzul::class.java)
+            intent.putExtra("linha", linha)
+            activity.startActivity(intent)
+
         }
 
         return view as View
     }
 
 
-    //filtro
     fun filter(text: String) {
 
         val text = text.toLowerCase(Locale.getDefault())

@@ -24,58 +24,509 @@
           "domingo": "06:45   11:03   15:21   19:25   23:01   \n08:11   12:29   16:47   20:37   \n09:37   13:55   18:13   21:49                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
         }
       },
-      "102 - Grama / Via Garganta do Dilermando": {
+      "102 - Grama Via Garganta do Dilermando": {
         "SBairro": {
-          "semana" : "",
-          "sabado" : "",
-          "domingo": ""
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
         },
         "SCentro" : {
-          "semana" : "",
-          "sabado" : "",
-          "domingo": ""
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
         }
       },
-      "103 - Filgueiras": {},
-      "104 - Granjas Betânia / Santa Luzia": {},
-      "105 - Filgueiras": {},
-      "106 - Parque Independência / Jardim Gaúcho": {},
-      "107 - Vila Montanhesa": {},
-      "108 - Granjas Betânia / Santa Luzia": {},
-      "109 - Granjas Triunfo": {},
-      "110 - Recanto dos Lagos": {},
-      "111 - Mundo Novo / Santa Terezinha": {},
-      "112  - Mundo Novo / Santa Terezinha": {},
-      "113 - Vila Montanhesa / Jardim Gaúcho": {},
-      "114 - Sagrado Coração de Jesus / Granjas Betânia": {},
-      "115 - Mundo Novo / Quintas da Avenida": {},
-      "116 - Vivendas da Serra / Via Garganta do Dilermando": {},
-      "117 - Vivendas da Serra / Via Garganta do Dilermando": {},
-      "118 - Parque Independência / Cidade Nova / Vale Verde": {},
-      "119 - Nossa Senhora das Graças / Santa Luzia": {},
-      "120 - Vista Alegre / Santa Luzia": {},
-      "121 - Nossa Senhora das Graças / Santa Luzia": {},
-      "122 - Eldorado / Jardim de Alá": {},
-      "123 - Alto Eldorado / Santa Luzia": {},
-      "124 - Eldorado / Alto Jardim de Alá": {},
-      "125 - Eldorado / Jardim América": {},
-      "126 - Eldorado / Jardim América": {},
-      "129 - Previdenciários": {},
-      "130 - Bandeirantes / Via Garganta do Dilermando / Alto São Geraldo": {},
-      "131 - Bandeirantes / São Geraldo": {},
-      "132 - Bandeirantes / Ipiranga": {},
-      "133 - Bandeirantes / Ipiranga / Arco-irís": {},
-      "134 - Bandeirantes / Santa Efigênia": {},
-      "135 - Parque Guarani / Sagrado Coração de Jesus": {},
-      "136 - Bandeirantes / Via Garganta do Dilermando / Santa Efigênia": {},
-      "137 - Sagrado Coração de Jesus / Manoel Honório": {},
-      "140 - Santa Efigênia / Manoel Honório": {},
-      "141 - Bandeirantes / Bela Aurora": {},
-      "142 - Bandeirantes / Bela Aurora": {},
-      "143 - Bela Aurora / Centro": {},
-      "145  - Centenário / Santa Efigênia": {},
-      "150 - Grama": {},
-      "155 - Jardim Emaús": {},
-      "190 - Zona Sul / UFJF / CAS": {}
+      "103 - Filgueiras": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "104 - Granjas Betânia / Santa Luzia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "105 - Filgueiras": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "106 - Parque Independência / Jardim Gaúcho": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "107 - Vila Montanhesa": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "108 - Granjas Betânia / Santa Luzia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "109 - Granjas Triunfo": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "110 - Recanto dos Lagos": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "111 - Mundo Novo / Santa Terezinha": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "112  - Mundo Novo / Santa Terezinha": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "113 - Vila Montanhesa / Jardim Gaúcho": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "114 - Sagrado Coração de Jesus / Granjas Betânia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "115 - Mundo Novo / Quintas da Avenida": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "116 - Vivendas da Serra / Via Garganta do Dilermando": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "117 - Vivendas da Serra / Via Garganta do Dilermando": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "118 - Parque Independência / Cidade Nova / Vale Verde": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "119 - Nossa Senhora das Graças / Santa Luzia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "120 - Vista Alegre / Santa Luzia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "121 - Nossa Senhora das Graças / Santa Luzia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "122 - Eldorado / Jardim de Alá": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "123 - Alto Eldorado / Santa Luzia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "124 - Eldorado / Alto Jardim de Alá": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "125 - Eldorado / Jardim América": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "126 - Eldorado / Jardim América": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "129 - Previdenciários": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "130 - Bandeirantes / Via Garganta do Dilermando / Alto São Geraldo": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "131 - Bandeirantes / São Geraldo": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "132 - Bandeirantes / Ipiranga": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "133 - Bandeirantes / Ipiranga / Arco-irís": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "134 - Bandeirantes / Santa Efigênia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "135 - Parque Guarani / Sagrado Coração de Jesus": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "136 - Bandeirantes / Via Garganta do Dilermando / Santa Efigênia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "137 - Sagrado Coração de Jesus / Manoel Honório": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "140 - Santa Efigênia / Manoel Honório": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "141 - Bandeirantes / Bela Aurora": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "142 - Bandeirantes / Bela Aurora": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "143 - Bela Aurora / Centro": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "145  - Centenário / Santa Efigênia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "150 - Grama": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "155 - Jardim Emaús": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "190 - Zona Sul / UFJF / CAS": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      }
     }
 }
