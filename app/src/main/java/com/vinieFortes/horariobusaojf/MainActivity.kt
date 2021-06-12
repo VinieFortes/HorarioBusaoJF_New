@@ -4,13 +4,12 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
-import android.view.MenuItem
 import android.widget.ListView
 import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
-import com.vinieFortes.horariobusaojf.horarios.HorariosAzul
-import java.util.ArrayList
+import java.util.*
 
 private lateinit var linhas: Array<String>
 private lateinit var icon: IntArray
@@ -18,13 +17,15 @@ private lateinit var icon: IntArray
 private lateinit var lv: ListView
 @SuppressLint("StaticFieldLeak")
 private lateinit var adapter: ListViewAdapter
-private  var arrayList: ArrayList<Model> = ArrayList<Model>()
+private var arrayList: ArrayList<Model> = ArrayList<Model>()
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        arrayList.clear()
 
 
         val toolbar = findViewById<Toolbar>(R.id.toolbarMain)
@@ -335,7 +336,29 @@ class MainActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         val searchItem = menu.findItem(R.id.searchView)
+        val fav = menu.findItem(R.id.fav)
+        val theme = menu.findItem(R.id.theme)
         val searchView = searchItem.actionView as SearchView
+
+        fav.setOnMenuItemClickListener {
+            val intent = Intent(this, Teste::class.java)
+            startActivity(intent)
+            true
+        }
+
+        if(AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_NO){
+            theme.setIcon(R.drawable.ic_baseline_nights_stay_24_black)
+            theme.setOnMenuItemClickListener {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                true
+            }
+        }else {
+            theme.setOnMenuItemClickListener {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+                true
+            }
+        }
+
         searchView.queryHint = "Pesquise sua linha"
         searchView.setOnQueryTextListener(object :  SearchView.OnQueryTextListener {
 
@@ -349,20 +372,15 @@ class MainActivity : AppCompatActivity() {
                 return false
             }
 
-        })
+        }
+
+        )
+
 
         return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-        if (id == R.id.fav) {
-            val intent = Intent(this, HorariosAzul::class.java)
-            startActivity(intent)
-            return true
-        }
-        return super.onOptionsItemSelected(item)
-    }
+
 }
 
 

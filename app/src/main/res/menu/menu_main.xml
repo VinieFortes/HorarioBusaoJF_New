@@ -8,6 +8,11 @@
         app:showAsAction="always"
         app:actionViewClass="android.widget.SearchView" />
 
+    <item android:id="@+id/theme"
+        android:title="Tema"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"
+        app:showAsAction="always" />
+
     <item
         android:id="@+id/fav"
         android:icon="@drawable/ic_baseline_star_24"

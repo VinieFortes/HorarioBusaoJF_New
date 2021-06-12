@@ -6,9 +6,7 @@ import android.content.res.ColorStateList
 import android.os.Build
 import android.os.Bundle
 import android.view.Menu
-import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import androidx.viewpager.widget.ViewPager
@@ -16,6 +14,7 @@ import com.google.android.material.tabs.TabLayout
 import com.vinieFortes.horariobusaojf.R
 import com.vinieFortes.horariobusaojf.Teste
 import com.vinieFortes.horariobusaojf.itens.HorariosAdapterAzul
+import com.vinieFortes.horariobusaojf.itens.HorariosAdapterCiano
 import com.vinieFortes.horariobusaojf.itens.HorariosModel
 import org.json.JSONObject
 import java.io.IOException
@@ -23,10 +22,10 @@ import java.io.InputStream
 import java.util.*
 import kotlin.collections.ArrayList
 
-class HorariosAzul : AppCompatActivity() {
+class HorariosCiano : AppCompatActivity() {
 
     private lateinit var viewPager: ViewPager
-    private lateinit var adapter: HorariosAdapterAzul
+    private lateinit var adapter: HorariosAdapterCiano
     private lateinit var models: ArrayList<HorariosModel>
     private lateinit var toolbar: Toolbar
     private lateinit var linha: String
@@ -51,7 +50,7 @@ class HorariosAzul : AppCompatActivity() {
         }
 
         try {
-            val inputStream: InputStream = assets.open("BusaoJfBdAzul.json")
+            val inputStream: InputStream = assets.open("BusaoJfBdCiano.json")
             json = inputStream.bufferedReader().use { it.readText() }
 
             val jsonObject = JSONObject(json)
@@ -75,21 +74,21 @@ class HorariosAzul : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
         supportActionBar?.title = linha
-        toolbar.setBackgroundColor(ContextCompat.getColor(this, R.color.azul))
+        toolbar.setBackgroundColor(ContextCompat.getColor(this, R.color.ciano))
         toolbar.setTitleTextColor(ContextCompat.getColor(this, R.color.white))
         toolbar.setSubtitleTextColor(ContextCompat.getColor(this, R.color.white))
 
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_ios_24)
-        tabs.setBackgroundColor(ContextCompat.getColor(this, R.color.azul))
+        tabs.setBackgroundColor(ContextCompat.getColor(this, R.color.ciano))
         tabs.setSelectedTabIndicatorColor(ContextCompat.getColor(this, R.color.white))
         tabs.tabTextColors = ColorStateList.valueOf(ContextCompat.getColor(this, R.color.white))
 
         if (Build.VERSION.SDK_INT >= 21) {
-            window.navigationBarColor = (ContextCompat.getColor(this, R.color.azul))
+            window.navigationBarColor = (ContextCompat.getColor(this, R.color.ciano))
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            window.statusBarColor = ContextCompat.getColor(this, R.color.azul)
+            window.statusBarColor = ContextCompat.getColor(this, R.color.ciano)
         }
 
 
@@ -98,7 +97,7 @@ class HorariosAzul : AppCompatActivity() {
         models.add(HorariosModel("Saída Bairro", "Saída Centro", sbairroSabado, scentroSabado))
         models.add(HorariosModel("Saída Bairro", "Saída Centro", sbairroDomingo, scentroDomingo))
 
-        adapter = HorariosAdapterAzul(models, this@HorariosAzul)
+        adapter = HorariosAdapterCiano(models, this@HorariosCiano)
 
         viewPager = findViewById(R.id.view_pager)
         viewPager.adapter = adapter
@@ -136,5 +135,4 @@ class HorariosAzul : AppCompatActivity() {
 
         return true
     }
-
 }

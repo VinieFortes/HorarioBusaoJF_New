@@ -8,8 +8,12 @@
         <entry key="app/src/main/res/layout/activity_teste.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/layout/horarios.xml" value="0.25" />
         <entry key="app/src/main/res/layout/itemazul.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/itemciano.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/itemvermelho.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/layout_main.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/teste.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.2234375" />
+        <entry key="app/src/main/res/menu/menu_horarios.xml" value="0.2109375" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.2234375" />
       </map>
     </option>

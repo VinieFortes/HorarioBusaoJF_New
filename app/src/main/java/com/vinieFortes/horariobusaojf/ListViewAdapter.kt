@@ -11,6 +11,8 @@ import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import com.vinieFortes.horariobusaojf.horarios.HorariosAzul
+import com.vinieFortes.horariobusaojf.horarios.HorariosCiano
+import com.vinieFortes.horariobusaojf.horarios.HorariosVermelho
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -67,11 +69,27 @@ class ListViewAdapter(
 
         view?.setOnClickListener {
 
-            val linha = modellist[position].title.toString()
-            val intent = Intent(activity, HorariosAzul::class.java)
-            intent.putExtra("linha", linha)
-            activity.startActivity(intent)
+            val compair = modellist[position].title.toString()
+            val c: Char = compair[0]
 
+            if (c == '1' || c == '2'){
+                val linha = modellist[position].title.toString()
+                val intent = Intent(activity, HorariosAzul::class.java)
+                intent.putExtra("linha", linha)
+                activity.startActivity(intent)
+            }
+            if (c == '3' || c == '4' || c == '5'){
+                val linha = modellist[position].title.toString()
+                val intent = Intent(activity, HorariosVermelho::class.java)
+                intent.putExtra("linha", linha)
+                activity.startActivity(intent)
+            }
+            if (c == '6' || c == '7'){
+                val linha = modellist[position].title.toString()
+                val intent = Intent(activity, HorariosCiano::class.java)
+                intent.putExtra("linha", linha)
+                activity.startActivity(intent)
+            }
         }
 
         return view as View

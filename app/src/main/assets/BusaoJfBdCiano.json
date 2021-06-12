@@ -1,77 +1,1036 @@
 {
     "Linhas": {
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {},
-      "": {}
+      "600 - Monte Castelo / Via Jardim São João": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "601 - Jardim Cachoeira / Via Monte Castelo": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "602 - Monte Castelo": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "603 - Carlos Chagas": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "604 - Bairro Industrial": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "605 - Milho Branco": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "606 - Jardim Natal": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "607 - Jardim Natal": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "608 - Milho Branco": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "609 - Milho Branco": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "610 - Amazônia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "611 - Esplanada / Granbery": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "612 - Esplanada / Granbery": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "613 - Francisco Bernardino": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "614 - Jardim Natal": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "615 - Encosta do Sol": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "616 - Jardim Natal": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "620 - Francisco Bernardino / Via Fontes Ville": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "621 - Democrata": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "626 - Jardim Natal / Av. Rio Branco": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "630 - Rodoviária": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "636 - Jardim Cachoeira / Av. Rio Branco": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "640 - Rodoviária": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "646 - Milho Branco / Av. Rio Branco": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "700 - Barbosa Lage": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "701 - Jóquei Clube": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "702 - Jóquei Clube": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "703 - Barbosa Lage / Santa Amélia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "704 - Jóquei Clube III": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "705 - Jóquei Clube III": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "706 - Cidade do Sol": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "707 - Cidade do Sol": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "708 - Vale dos Lírios": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "709 - Jóquei Clube": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "710 - Novo Triunfo": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "711 - Barreira": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "712 - Dias Tavares": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "713 - Náutico": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "714 - Chapéu D Uvas": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "715 - Vila Esperança I": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "716 - Distrito Industrial": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "717 - Benfica": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "718 - Ponte Preta": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "719 - Nova Era / Centro": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "720 - Santa Lúcia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "721 - Nova Era": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "722 - Santa Cruz": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "723 - São Judas Tadeu": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "724 - Santa Lúcia / Distrito Industrial (Circular)": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "725 - São Judas Tadeu": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "726 - Igrejinha": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "727 - Bairro Araújo": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "728 - Nova Benfica": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "729 - Paula Lima": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "730 - Santa Lúcia": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "731 - BR 040": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "732 - Santa Cruz": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "733 - Santa Cruz / Via São Damião": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "734 - Cidade do Sol / Santa Maria": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "735 - Vila Esperança II": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "736 - Nova Benfica": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "737 - Jóquei Clube": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "738 - Pedra Branca": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "739 - Nova Era": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "740 - Humaitá": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "741 - Valadares": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "742 - Rosário de Minas": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "743 - Toledos": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "744 - Palmital": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "745 - Rosário de Minas": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "746 - Circular BR 267": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "747 - São Judas Tadeu": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "748 - Alto Santa Cruz": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "749 - São Judas Tadeu": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "751 - Santa Cruz / Via Jardim Alfineiros / Santa Clara": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "752 - Penido": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "753 - Miguel Marinho": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "754 - CIRCULAR BENFICA / SENAI-VIA BR 040": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "755 - Zona Norte / UFJF": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "757 - Benfica / Jardim Bom Jesus": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "758 - Novo Triunfo II": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "760 - Humaitá": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "766 - Zona Norte / Av. Rio Branco": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "767 - Benfica / Bela Vista": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "775 - Santa Cruz / Via Av. Brasil": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      },
+      "785 - Benfica / Via Av. Brasil": {
+        "SBairro": {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        },
+        "SCentro" : {
+          "semana" : "null",
+          "sabado" : "null",
+          "domingo": "null"
+        }
+      }
     }
 }

@@ -11,7 +11,16 @@
         android:theme="@style/Theme.HorarioBusaoJF">
         <activity
             android:name=".horarios.HorariosAzul"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".horarios.HorariosVermelho"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".horarios.HorariosCiano"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".Teste"
             android:exported="true" />

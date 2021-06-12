@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="azul">#031983</color>
+    <color name="vermelho">#D00B08</color>
+    <color name="ciano">#04A489</color>
 </resources>
