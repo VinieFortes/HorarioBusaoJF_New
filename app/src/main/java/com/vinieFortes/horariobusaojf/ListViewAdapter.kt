@@ -23,7 +23,7 @@ class ListViewAdapter(
     private var modellist: ArrayList<Model>) :
     BaseAdapter() {
 
-    var arrayList = ArrayList(modellist)
+    private var arrayList = ArrayList(modellist)
 
     private class ViewHolder(row: View?) {
         var txtTitulo: TextView? = null
@@ -77,12 +77,14 @@ class ListViewAdapter(
                 val intent = Intent(activity, HorariosAzul::class.java)
                 intent.putExtra("linha", linha)
                 activity.startActivity(intent)
+
             }
             if (c == '3' || c == '4' || c == '5'){
                 val linha = modellist[position].title.toString()
                 val intent = Intent(activity, HorariosVermelho::class.java)
                 intent.putExtra("linha", linha)
                 activity.startActivity(intent)
+
             }
             if (c == '6' || c == '7'){
                 val linha = modellist[position].title.toString()
@@ -105,13 +107,12 @@ class ListViewAdapter(
             modellist.addAll(arrayList)
         } else {
             for (i in 0 until arrayList.size) {
-                if (arrayList[i].title!!.toLowerCase(Locale.getDefault()).contains(text)) {
+                if (arrayList[i].title.toLowerCase(Locale.getDefault()).contains(text)) {
                     modellist.add(arrayList[i])
                 }
             }
         }
         notifyDataSetChanged()
     }
-
 
 }

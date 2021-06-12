@@ -4,9 +4,14 @@
 
 
     <item
-        android:id="@+id/fav"
         android:icon="@drawable/ic_baseline_star_24"
-        android:title="Favoritos"
+        android:title="Remover dos favoritos"
+        android:id="@+id/favSI"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_baseline_star_border_24"
+        android:title="Adiconar aos favoritos"
+        android:id="@+id/favNO"
         app:showAsAction="always" />
 
     <item android:title="Intinerario"

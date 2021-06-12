@@ -9,6 +9,7 @@ import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
+import com.vinieFortes.horariobusaojf.fav.Favoritos
 import java.util.*
 
 private lateinit var linhas: Array<String>
@@ -320,7 +321,7 @@ class MainActivity : AppCompatActivity() {
         )
 
 
-        lv= findViewById(R.id.listview)
+        lv = findViewById(R.id.listview)
         for (i in linhas.indices) {
             val model = Model(linhas[i], icon[i])
             arrayList.add(model)
@@ -335,13 +336,14 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
+        val prefs = getSharedPreferences("sharedPreferences", MODE_PRIVATE)
         val searchItem = menu.findItem(R.id.searchView)
         val fav = menu.findItem(R.id.fav)
         val theme = menu.findItem(R.id.theme)
         val searchView = searchItem.actionView as SearchView
 
         fav.setOnMenuItemClickListener {
-            val intent = Intent(this, Teste::class.java)
+            val intent = Intent(this, Favoritos::class.java)
             startActivity(intent)
             true
         }
@@ -375,7 +377,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         )
-
 
         return true
     }

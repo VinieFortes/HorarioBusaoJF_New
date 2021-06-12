@@ -6,15 +6,16 @@ import android.content.res.ColorStateList
 import android.os.Build
 import android.os.Bundle
 import android.view.Menu
-import android.widget.SearchView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
+import com.google.gson.Gson
 import com.vinieFortes.horariobusaojf.R
 import com.vinieFortes.horariobusaojf.Teste
+import com.vinieFortes.horariobusaojf.fav.*
 import com.vinieFortes.horariobusaojf.itens.HorariosAdapterAzul
 import com.vinieFortes.horariobusaojf.itens.HorariosModel
 import org.json.JSONObject
@@ -118,13 +119,35 @@ class HorariosAzul : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_horarios, menu)
-
-        val fav = menu.findItem(R.id.fav)
+        val prefs = getSharedPreferences("sharedPreferences", MODE_PRIVATE)
+        val favNO = menu.findItem(R.id.favNO)
+        val favSI = menu.findItem(R.id.favSI)
         val inti = menu.findItem(R.id.inti)
 
-        fav.setOnMenuItemClickListener {
-            val intent = Intent(this, Teste::class.java)
-            startActivity(intent)
+
+        favNO.isVisible = prefs.getBoolean("favoritado $linha", true)
+        favSI.isVisible = prefs.getBoolean("Nfavoritado $linha", false)
+
+
+        favNO.setOnMenuItemClickListener {
+            prefs.edit().putBoolean("favoritado $linha", false).apply()
+            prefs.edit().putBoolean("Nfavoritado $linha", true).apply()
+            favNO.isVisible = false
+            favSI.isVisible = true
+            arrayList_fav.add(linha)
+            saveData()
+            Toast.makeText(this, "$linha foi adicionada aos favoritos !", Toast.LENGTH_SHORT).show()
+            true
+        }
+
+        favSI.setOnMenuItemClickListener {
+            prefs.edit().putBoolean("favoritado $linha", true).apply()
+            prefs.edit().putBoolean("Nfavoritado $linha", false).apply()
+            favNO.isVisible = true
+            favSI.isVisible = false
+            arrayList_fav.remove(linha)
+            saveData()
+            Toast.makeText(this, "$linha foi removido dos favoritos !", Toast.LENGTH_SHORT).show()
             true
         }
 
@@ -136,5 +159,12 @@ class HorariosAzul : AppCompatActivity() {
 
         return true
     }
-
+    private fun saveData() {
+        val sharedPreferences = getSharedPreferences("shared preferences", MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        val gson = Gson()
+        val json = gson.toJson(arrayList_fav)
+        editor.putString("task list", json)
+        editor.apply()
+    }
 }
